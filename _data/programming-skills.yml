@@ -1,0 +1,11 @@
+- name: Python
+  percentage: 60
+  color: dark
+ 
+- name: R
+  percentage: 50
+  color: danger
+ 
+- name: SQL
+  percentage: 55
+  color: primary

@@ -1,5 +1,6 @@
-_site
-.DS_Store
-*.swp
-.sass-cache
-*~
+# Ruby Gems
+*.gem
+
+# Design Files
+*.psd
+*.ai

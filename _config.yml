@@ -1,73 +1,80 @@
-# Site
-name: "Data Literacy"
-title: "데이터 리터러시 스터디 블로그"
-description: "데이터 리터러시 스터디 진행 내역 공유 블로그"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
-url: 'https://data-literacy12.github.io/'
-baseurl: ''
-google_analytics: 'G-3RSC8S5HMY'
-disqus: 'https-data-literacy12-github-io'
-mailchimp-list: ''
-include: ["_pages"]
-permalink: /:title/
+### Site Settings ###
+title               : 기본기를 쌓는 초보 코딩 블로그
+description         : >-
+                      "Preparing to be Data Analyst"
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          :      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : 
 
-# Authors
-authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John    
-    avatar: 'assets/images/avatar.png'
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
 
-# Plugins
+### Plugins ###
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-archives
-    
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
-    
-# Pagination 
-paginate: 6
-paginate_path: /page:num/
-    
-# Other
-markdown: kramdown
+  - jemoji
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
 
-# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  
 
-# Lazy Images ("enabled" or "disabled")
-lazyimages: "enabled"
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+### Author Info ###
+author:
+  name              : Je Ho Yeon
+  image             : https://user-images.githubusercontent.com/57039464/79418345-5cdb2b00-7fef-11ea-95f2-cdd27be7167f.jpg
+# behance           : jyeon94
+# dribbble          : your_username
+  email             : jyeon9465@gmail.com
+# facebook          : your_username
+  github            : jyeon94
+# gitlab            : your_username
+# instagram         : your_username
+# kaggle            : your_username
+  linkedin          : je-ho-yeon-72770b132
+# medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+# twitter           : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+ 
+
+### Disqus ###
+disqus: "jyeon94" # Your website Shortname on disqus
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
