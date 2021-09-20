@@ -7,9 +7,7 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-I have graduate from University of Minnesota Twin Cities with GPA of 3.61. I am currently studying Python, R, SQL to become Data Analyst. 
-I am currently working at Focus Media Korea as Data Analyst. 
+**{{ site.author.name }}** :wave:,<br>
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}

@@ -1,6 +1,6 @@
 ### Site Settings ###
-title               : 기본기를 쌓는 초보 코딩 블로그
-description         :  "Preparing to be Data Analyst"
+title               : 데이터리터러시 스터디 기록
+description         :  "열공하는 중"
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          :      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : 
@@ -25,13 +25,13 @@ author:
   image             : https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.qlik.com%2Fblog%2Fsolving-the-data-literacy-gap&psig=AOvVaw35LvUVdDVSI_C8Fw4NyKF4&ust=1632207244356000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJD9r_z7jPMCFQAAAAAdAAAAABAD
 # behance           : jyeon94
 # dribbble          : your_username
-  email             : jyeon9465@gmail.com
+# email             : jyeon9465@gmail.com
 # facebook          : your_username
-  github            : jyeon94
+  github            : Data-Literacy12
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : je-ho-yeon-72770b132
+# linkedin          : je-ho-yeon-72770b132
 # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
