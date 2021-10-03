@@ -1,5 +1,5 @@
 ### Site Settings ###
-title               : "데이터리터러시 스터디 기록"
+title               : "데이터리터러시 스터디"
 description         : "열공하는 중"
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          :      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
